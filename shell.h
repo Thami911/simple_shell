@@ -38,10 +38,10 @@ extern char **environ;
 
 /**
  * enum code_num_status - singly linked list
- * @n_solo: as -1
- * @solo: as 1
+ * @n_uno: as -1
+ * @uno: as 1
  * @duo: as 2
- * @nil: as 0
+ * @none: as 0
  * @true_status: as 0
  * @false_status: points to false
  * @error_status: points to false
@@ -50,10 +50,10 @@ extern char **environ;
 
 enum code_num_status
 {
-	n_solo = -1,
-	solo = 1,
+	n_uno = -1,
+	uno = 1,
 	duo = 2,
-	nil = 0,
+	none = 0,
 	true_status = 1,
 	false_status = 0,
 	error_status = 1,

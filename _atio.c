@@ -8,7 +8,7 @@
  *Return: 1 if interactive mode, 0 otherwise
  */
 
-int interactive(infor_t *infor)
+int interactive(info_t *infor)
 {
 	bool result = (isatty(STDIN_FILENO) && infor->readfd <= duo);
 
